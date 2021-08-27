@@ -1,0 +1,259 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(199, 198, 198);
+}
+
+.container {
+    width: 100%;
+    height: 1000px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.nota {
+    padding: 30px;
+    margin: auto;
+    width: 60%;
+    max-width: 60%;
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+#title {
+    margin-bottom: 20px;
+}
+
+#tg{
+    margin-bottom: 20px;
+}
+
+#tg::after{
+    content: '';
+    display: block;
+    background-color:green;
+    height: 2px;
+    width: 100%;
+    margin-top: 5px;
+}
+.textarea {
+    padding: 5px;
+}
+.review1 {
+    margin-top: 5px;
+    width: 60%;
+    height: 20px;
+    text-align: left;
+    padding: 10px;
+    font-size: 15px;
+    max-height: 20px;
+    max-width: 60%;
+    color: red;
+    border-radius: 10px;
+}
+
+.review2 {
+    margin-top: 5px;
+    width: 60%;
+    height: 100px;
+    text-align: left;
+    padding: 10px;
+    font-size: 15px;
+    max-height: 200px;
+    max-width: 60%;
+    color: black;
+    border-radius: 10px;
+}
+
+.buttonAgregar {
+    font-size: 15px;
+    margin-bottom: 20px;
+    display: flexbox;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: red;
+    border-color: red;
+}
+
+.taskStyle {
+    background-color: blue;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    margin: 10px;
+    width: 80%;
+    margin: auto;
+}
+
+.taskStyle .contenido{
+
+    color: black;
+    font-size: 16px;;
+}
+
+.taskStyle2 {
+    background-color: green;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px !important;
+    width: 80%;
+    margin: auto;
+}
+
+.taskStyle2 .contenido{
+
+    color: black;
+    font-size: 16px;;
+}
+
+.taskStyle3 {
+    background-color: rosybrown;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px !important;
+    width: 80%;
+    margin: auto;
+}
+
+.taskStyle3 .contenido{
+
+    color: black;
+    font-size: 16px;;
+}
+
+.taskStyle4 {
+    background-color: rebeccapurple;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px !important;
+    width: 80%;
+    margin: auto;
+}
+
+.taskStyle4 .contenido{
+
+    color: black;
+    font-size: 16px;;
+}
+
+.taskStyle5 {
+    background-color: yellowgreen;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px !important;
+    width: 80%;
+    margin: auto;
+}
+
+.taskStyle5 .contenido{
+
+    color: black;
+    font-size: 16px;;
+}
+
+.taskStyle6 {
+    background-color: indianred;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px !important;
+    width: 80%;
+    margin: auto;
+}
+
+.taskStyle6 .contenido{
+
+    color: black;
+    font-size: 16px;;
+}
+
+.taskStyle7 {
+    background-color: orchid;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px !important;
+    width: 80%;
+    margin: auto;
+}
+
+.taskStyle7 .contenido{
+
+    color: black;
+    font-size: 16px;;
+}
+
+.taskStyle8 {
+    background-color: paleturquoise;
+    padding: 10px;
+    border-radius: 5px;
+    color: red;
+    margin-top: 20px !important;
+    width: 80%;
+    margin: auto;
+}
+
+.taskStyle8 .contenido{
+
+    color: black;
+    font-size: 16px;;
+}
+
+.taskStyle9 {
+    background-color: purple;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px !important;
+    width: 80%;
+    margin: auto;
+}
+
+.taskStyle9 .contenido{
+
+    color: black;
+    font-size: 16px;;
+}
+
+.taskStyle10 {
+    background-color: peru;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px !important;
+    width: 80%;
+    margin: auto;
+}
+
+.taskStyle10 .contenido{
+
+    color: black;
+    font-size: 16px;;
+}
+
+.buttonTask {
+    cursor: pointer;
+    font-size: 15px;
+    padding: 3px;
+    text-align: right;
+    background-color: white;
+    border:solid 1px black;
+    color: red;
+    border-radius: 5px;
+    float: right;
+    
+}
+
+
+.hiden {
+    display: none;
+}

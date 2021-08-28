@@ -37,7 +37,7 @@ function agregar(){
   var task = [
     
     `<div class=taskStyle>
-        <p><h2><b>1: ${titulo}</b><h2>
+        <p><h4><b>1: ${titulo}</b><h4>
           <br> <em class= "contenido">${contenido}</em><p/>
           <div class="buttonTask"> 
             <a onclick="quitar(1)">Eliminar</a>
@@ -45,7 +45,7 @@ function agregar(){
     </div>`,
     
     `<div class=taskStyle2>
-        <p><h2><b>2: ${titulo}</b><h2>
+        <p><h4><b>2: ${titulo}</b><h4>
           <br> <em class= "contenido">${contenido}</em><p/>
           <div class="buttonTask"> 
             <a onclick="quitar(2)">Eliminar</a>
@@ -53,7 +53,7 @@ function agregar(){
     </div>`,
     
   `<div class=taskStyle3>
-        <p><h2><b>3: ${titulo}</b><h2>
+        <p><h4><b>3: ${titulo}</b><h4>
           <br> <em class= "contenido">${contenido}</em><p/>
           <div class="buttonTask"> 
             <a onclick="quitar(3)">Eliminar</a>
@@ -61,7 +61,7 @@ function agregar(){
     </div>`,
 
   `<div class=taskStyle4>
-        <p><h2><b>4: ${titulo}</b><h2>
+        <p><h4><b>4: ${titulo}</b><h4>
           <br> <em class= "contenido">${contenido}</em><p/>
           <div class="buttonTask"> 
             <a onclick="quitar(4)">Eliminar</a>
@@ -69,7 +69,7 @@ function agregar(){
     </div>`,
 
   `<div class=taskStyle5>
-        <p><h2><b>5: ${titulo}</b><h2>
+        <p><h4><b>5: ${titulo}</b><h4>
           <br> <em class= "contenido">${contenido}</em><p/>
           <div class="buttonTask"> 
             <a onclick="quitar(5)">Eliminar</a>
@@ -78,7 +78,7 @@ function agregar(){
     
 
   `<div class=taskStyle6>
-        <p><h2><b>6: ${titulo}</b><h2>
+        <p><h4><b>6: ${titulo}</b><h4>
           <br> <em class= "contenido">${contenido}</em><p/>
         <div class="buttonTask"> 
           <a onclick="quitar(6)">Eliminar</a>
@@ -86,7 +86,7 @@ function agregar(){
   </div>`,
 
   `<div class=taskStyle7>
-        <p><h2><b>7: ${titulo}</b><h2>
+        <p><h4><b>7: ${titulo}</b><h4>
           <br> <em class= "contenido">${contenido}</em><p/>
         <div class="buttonTask"> 
           <a onclick="quitar(7)">Eliminar</a>
@@ -94,7 +94,7 @@ function agregar(){
   </div>`,
 
   `<div class=taskStyle8>
-        <p><h2><b>8: ${titulo}</b><h2>
+        <p><h4><b>8: ${titulo}</b><h4>
           <br> <em class= "contenido">${contenido}</em><p/>
         <div class="buttonTask"> 
           <a onclick="quitar(8)">Eliminar</a>
@@ -102,7 +102,7 @@ function agregar(){
   </div>`,
 
   `<div class=taskStyle9>
-        <p><h2><b>9: ${titulo}</b><h2>
+        <p><h4><b>9: ${titulo}</b><h4>
           <br> <em class= "contenido">${contenido}</em><p/>
         <div class="buttonTask"> 
           <a onclick="quitar(9)">Eliminar</a>
@@ -110,7 +110,7 @@ function agregar(){
   </div>`,
 
   `<div class=taskStyle10>
-        <p><h2><b> 10: ${titulo}</b><h2  
+        <p><h4><b> 10: ${titulo}</b><h4  
         <br> <em class= "contenido">${contenido}</em><p/>
       <div class="buttonTask"> 
         <a onclick="quitar(10)">Eliminar</a>

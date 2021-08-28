@@ -2,6 +2,10 @@
     margin: 0px;
     padding: 0px;
     text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 body{
@@ -12,11 +16,11 @@ body{
     width: 100%;
     height: 1000px;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .nota {
-    padding: 30px;
+    padding: 15px;
     margin: auto;
     width: 60%;
     max-width: 60%;
@@ -36,7 +40,7 @@ body{
     content: '';
     display: block;
     background-color:green;
-    height: 2px;
+    height: 1px;
     width: 100%;
     margin-top: 5px;
 }
@@ -45,47 +49,44 @@ body{
 }
 .review1 {
     margin-top: 5px;
-    width: 60%;
+    width: 200px;
     height: 20px;
     text-align: left;
-    padding: 10px;
-    font-size: 15px;
-    max-height: 20px;
-    max-width: 60%;
-    color: red;
+    padding: 5px;
+    font-size: 10px;
+    border-color: white;
     border-radius: 10px;
 }
 
 .review2 {
     margin-top: 5px;
-    width: 60%;
+    width: 200px;
     height: 100px;
     text-align: left;
-    padding: 10px;
-    font-size: 15px;
+    padding: 5px;
+    font-size: 10px;
     max-height: 200px;
-    max-width: 60%;
-    color: black;
     border-radius: 10px;
+    border-color: white;
 }
 
 .buttonAgregar {
+    padding: 5px;
     font-size: 15px;
     margin-bottom: 20px;
     display: flexbox;
     width: 100px;
-    height: 30px;
     border-radius: 10px;
     background-color: red;
     border-color: red;
 }
 
 .taskStyle {
-    background-color: blue;
-    padding: 10px;
+    background-color: rgb(0, 140, 255);
+    padding: 5px;
     border-radius: 5px;
-    color: white;
-    margin: 10px;
+    color: black;
+    margin-bottom: 20px !important;
     width: 80%;
     margin: auto;
 }
@@ -97,10 +98,10 @@ body{
 }
 
 .taskStyle2 {
-    background-color: green;
-    padding: 10px;
+    background-color: rgb(68, 158, 68);
+    padding: 5px;
     border-radius: 5px;
-    color: white;
+    color: black;
     margin-top: 20px !important;
     width: 80%;
     margin: auto;
@@ -114,9 +115,9 @@ body{
 
 .taskStyle3 {
     background-color: rosybrown;
-    padding: 10px;
+    padding: 5px;
     border-radius: 5px;
-    color: white;
+    color: black;
     margin-top: 20px !important;
     width: 80%;
     margin: auto;
@@ -129,10 +130,10 @@ body{
 }
 
 .taskStyle4 {
-    background-color: rebeccapurple;
-    padding: 10px;
+    background-color: rgb(124, 89, 158);
+    padding: 5px;
     border-radius: 5px;
-    color: white;
+    color: black;
     margin-top: 20px !important;
     width: 80%;
     margin: auto;
@@ -146,9 +147,9 @@ body{
 
 .taskStyle5 {
     background-color: yellowgreen;
-    padding: 10px;
+    padding: 5px;
     border-radius: 5px;
-    color: white;
+    color: black;
     margin-top: 20px !important;
     width: 80%;
     margin: auto;
@@ -162,9 +163,9 @@ body{
 
 .taskStyle6 {
     background-color: indianred;
-    padding: 10px;
+    padding: 5px;
     border-radius: 5px;
-    color: white;
+    color: black;
     margin-top: 20px !important;
     width: 80%;
     margin: auto;
@@ -178,9 +179,9 @@ body{
 
 .taskStyle7 {
     background-color: orchid;
-    padding: 10px;
+    padding: 5px;
     border-radius: 5px;
-    color: white;
+    color: black;
     margin-top: 20px !important;
     width: 80%;
     margin: auto;
@@ -194,9 +195,9 @@ body{
 
 .taskStyle8 {
     background-color: paleturquoise;
-    padding: 10px;
+    padding: 5px;
     border-radius: 5px;
-    color: red;
+    color: black;
     margin-top: 20px !important;
     width: 80%;
     margin: auto;
@@ -209,10 +210,10 @@ body{
 }
 
 .taskStyle9 {
-    background-color: purple;
-    padding: 10px;
+    background-color: rgb(204, 130, 204);
+    padding: 5px;
     border-radius: 5px;
-    color: white;
+    color: black;
     margin-top: 20px !important;
     width: 80%;
     margin: auto;
@@ -226,9 +227,9 @@ body{
 
 .taskStyle10 {
     background-color: peru;
-    padding: 10px;
+    padding: 5px;
     border-radius: 5px;
-    color: white;
+    color: black;
     margin-top: 20px !important;
     width: 80%;
     margin: auto;
@@ -242,11 +243,11 @@ body{
 
 .buttonTask {
     cursor: pointer;
-    font-size: 15px;
+    font-size: 10px;
     padding: 3px;
     text-align: right;
     background-color: white;
-    border:solid 1px black;
+    border:solid 1px rebeccapurple;
     color: red;
     border-radius: 5px;
     float: right;
@@ -254,6 +255,6 @@ body{
 }
 
 
-.hiden {
-    display: none;
+.contenido {
+    font-weight: lighter;
 }

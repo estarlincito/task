@@ -187,59 +187,69 @@ function quitar(n1){
           task1.innerHTML = ""
           localStorage.removeItem("n1");
           po[0]--;
+          tg.innerHTML = `Tarea <span class ="tgId">ID_1</span> eliminada`;
           break;
 
        case 2:
           task2.innerHTML = ""
           localStorage.removeItem("n2");
           po[1]--;
+          tg.innerHTML = `Tarea <span class ="tgId">ID_2</span> eliminada`;
             break; 
                  
        case 3:
           task3.innerHTML = ""
           localStorage.removeItem("n3");
+          tg.innerHTML = `Tarea <span class ="tgId">ID_3</span> eliminada`;
           po[2]--;
           break;
 
        case 4:
           task4.innerHTML = ""
           localStorage.removeItem("n4");
+          tg.innerHTML = `Tarea <span class ="tgId">ID_4</span> eliminada`;
           po[3]--;
             break;  
 
        case 5:
           task5.innerHTML = ""
           localStorage.removeItem("n5");
+          tg.innerHTML = `Tarea <span class ="tgId">ID_5</span> eliminada`;
           po[4]--;
           break;
 
        case 6:
           task6.innerHTML = ""
           localStorage.removeItem("n6");
+          tg.innerHTML = `Tarea <span class ="tgId">ID_6</span> eliminada`;
           po[5]--;
             break; 
                  
        case 7:
           task7.innerHTML = ""
           localStorage.removeItem("n7");
+          tg.innerHTML = `Tarea <span class ="tgId">ID_7</span> eliminada`;
           po[6]--;
           break;
 
        case 8:
           task8.innerHTML = ""
           localStorage.removeItem("n8");
+          tg.innerHTML = `Tarea <span class ="tgId">ID_8</span> eliminada`;
           po[7]--;
             break;
                  
        case 9:
           task9.innerHTML = ""
           localStorage.removeItem("n9");
+          tg.innerHTML = `Tarea <span class ="tgId">ID_9</span> eliminada`;
           po[8]--;
           break;
 
        case 10:
           task10.innerHTML = ""
           localStorage.removeItem("n10");
+          tg.innerHTML = `Tarea <span class ="tgId">ID_10</span> eliminada`;
           po[9]--;
             break;                     
   

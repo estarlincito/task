@@ -72,7 +72,7 @@ body{
     text-align: left;
     font-size: 16px;
     border: 1px solid white;
-    outline: red;
+    outline: white;
     border-radius: 10px;
 }
 
@@ -87,6 +87,8 @@ body{
     text-align: left;
     font-size: 16px;
     border-radius: 10px;
+    border: 1px solid white;
+    outline: white;
     border-color: white;
 }
 

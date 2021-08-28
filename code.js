@@ -9,6 +9,7 @@ var task7 = document.getElementById("task7");
 var task8 = document.getElementById("task8");
 var task9 = document.getElementById("task9");
 var task10 = document.getElementById("task10");
+var tg = document.getElementById("tg");
 
 //setLocalStorage
 var taskLocalStorage = ["n1", "n2", "n3", "n4", "n5", "n6", "n7", "n8", "n9", "n10"];
@@ -37,7 +38,7 @@ function agregar(){
   var task = [
     
     `<div class=taskStyle>
-        <p><h4><b>1: ${titulo}</b><h4>
+        <p><h4><span class ="idTj">ID_1</span> ${titulo}<h4>
           <br> <em class= "contenido">${contenido}</em><p/>
           <div class="buttonTask"> 
             <a onclick="quitar(1)">Eliminar</a>
@@ -45,7 +46,7 @@ function agregar(){
     </div>`,
     
     `<div class=taskStyle2>
-        <p><h4><b>2: ${titulo}</b><h4>
+        <p><h4><span class ="idTj">ID_2</span> ${titulo}<h4>
           <br> <em class= "contenido">${contenido}</em><p/>
           <div class="buttonTask"> 
             <a onclick="quitar(2)">Eliminar</a>
@@ -53,7 +54,7 @@ function agregar(){
     </div>`,
     
   `<div class=taskStyle3>
-        <p><h4><b>3: ${titulo}</b><h4>
+        <p><h4><span class ="idTj">ID_3</span> ${titulo}<h4>
           <br> <em class= "contenido">${contenido}</em><p/>
           <div class="buttonTask"> 
             <a onclick="quitar(3)">Eliminar</a>
@@ -61,7 +62,7 @@ function agregar(){
     </div>`,
 
   `<div class=taskStyle4>
-        <p><h4><b>4: ${titulo}</b><h4>
+        <p><h4><span class ="idTj">ID_4</span> ${titulo}<h4>
           <br> <em class= "contenido">${contenido}</em><p/>
           <div class="buttonTask"> 
             <a onclick="quitar(4)">Eliminar</a>
@@ -69,7 +70,7 @@ function agregar(){
     </div>`,
 
   `<div class=taskStyle5>
-        <p><h4><b>5: ${titulo}</b><h4>
+        <p><h4><span class ="idTj">ID_5</span> ${titulo}<h4>
           <br> <em class= "contenido">${contenido}</em><p/>
           <div class="buttonTask"> 
             <a onclick="quitar(5)">Eliminar</a>
@@ -78,7 +79,7 @@ function agregar(){
     
 
   `<div class=taskStyle6>
-        <p><h4><b>6: ${titulo}</b><h4>
+        <p><h4><span class ="idTj">ID_6</span> ${titulo}<h4>
           <br> <em class= "contenido">${contenido}</em><p/>
         <div class="buttonTask"> 
           <a onclick="quitar(6)">Eliminar</a>
@@ -86,7 +87,7 @@ function agregar(){
   </div>`,
 
   `<div class=taskStyle7>
-        <p><h4><b>7: ${titulo}</b><h4>
+        <p><h4><span class ="idTj">ID_7</span> ${titulo}<h4>
           <br> <em class= "contenido">${contenido}</em><p/>
         <div class="buttonTask"> 
           <a onclick="quitar(7)">Eliminar</a>
@@ -94,7 +95,7 @@ function agregar(){
   </div>`,
 
   `<div class=taskStyle8>
-        <p><h4><b>8: ${titulo}</b><h4>
+        <p><h4><span class ="idTj">ID_8</span> ${titulo}<h4>
           <br> <em class= "contenido">${contenido}</em><p/>
         <div class="buttonTask"> 
           <a onclick="quitar(8)">Eliminar</a>
@@ -102,7 +103,7 @@ function agregar(){
   </div>`,
 
   `<div class=taskStyle9>
-        <p><h4><b>9: ${titulo}</b><h4>
+        <p><h4><span class ="idTj">ID_9</span> ${titulo}<h4>
           <br> <em class= "contenido">${contenido}</em><p/>
         <div class="buttonTask"> 
           <a onclick="quitar(9)">Eliminar</a>
@@ -110,7 +111,7 @@ function agregar(){
   </div>`,
 
   `<div class=taskStyle10>
-        <p><h4><b> 10: ${titulo}</b><h4  
+        <p><h4><span class ="idTj">ID_10</span> ${titulo}<h4>  
         <br> <em class= "contenido">${contenido}</em><p/>
       <div class="buttonTask"> 
         <a onclick="quitar(10)">Eliminar</a>
@@ -124,43 +125,53 @@ function agregar(){
           po[0]++;
           task1.innerHTML = task[0];
           taskLocalStorage[0] = localStorage.setItem("n1", task[0]);
+          tg.innerHTML = `Tarea guardada en <span class ="tgId">ID_${po[0]}</span>`;
 
     }else  if (po[1] === 1){
             po[1]++;
             task2.innerHTML = task[1];
-            taskLocalStorage[1] = localStorage.setItem("n2", task[1]);  
+            taskLocalStorage[1] = localStorage.setItem("n2", task[1]);
+            tg.innerHTML = `Tarea guardada en <span class ="tgId">ID_${po[1]}</span>`;
     }else  if (po[2] === 2){
             po[2]++;
             task3.innerHTML = task[2];
-            taskLocalStorage[2] = localStorage.setItem("n3", task[2]);  
+            taskLocalStorage[2] = localStorage.setItem("n3", task[2]);
+            tg.innerHTML = `Tarea guardada en <span class ="tgId">ID_${po[2]}</span>`;
     }else  if (po[3] === 3){
             po[3]++;
             task4.innerHTML = task[3];
-            taskLocalStorage[3] = localStorage.setItem("n4", task[3]);  
+            taskLocalStorage[3] = localStorage.setItem("n4", task[3]);
+            tg.innerHTML = `Tarea guardada en <span class ="tgId">ID_${po[3]}</span>`;
     }else  if (po[4] === 4){
             po[4]++;
             task5.innerHTML = task[4];
-            taskLocalStorage[4] = localStorage.setItem("n5", task[4]);  
+            taskLocalStorage[4] = localStorage.setItem("n5", task[4]);
+            tg.innerHTML = `Tarea guardada en <span class ="tgId">ID_${po[4]}</span>`;
     }else  if (po[5] === 5){
             po[5]++;
             task6.innerHTML = task[5];
-            taskLocalStorage[5] = localStorage.setItem("n6", task[5]);  
+            taskLocalStorage[5] = localStorage.setItem("n6", task[5]);
+            tg.innerHTML = `Tarea guardada en <span class ="tgId">ID_${po[5]}</span>`;
     }else  if (po[6] === 6){
             po[6]++;
             task7.innerHTML = task[6];
-            taskLocalStorage[6] = localStorage.setItem("n7", task[6]);  
+            taskLocalStorage[6] = localStorage.setItem("n7", task[6]);
+            tg.innerHTML = `Tarea guardada en <span class ="tgId">ID_${po[6]}</span>`;
     }else  if (po[7] === 7){
             po[7]++;
             task8.innerHTML = task[7];
-            taskLocalStorage[7] = localStorage.setItem("n8", task[7]);  
+            taskLocalStorage[7] = localStorage.setItem("n8", task[7]);
+            tg.innerHTML = `Tarea guardada en <span class ="tgId">ID_${po[7]}</span>`;
     }else  if (po[8] === 8){
             po[8]++;
             task9.innerHTML = task[8];
-            taskLocalStorage[8] = localStorage.setItem("n9", task[8]);    
+            taskLocalStorage[8] = localStorage.setItem("n9", task[8]);
+            tg.innerHTML = `Tarea guardada en <span class ="tgId">ID_${po[8]}</span>`;
     }else  if (po[9] === 9){
             po[9]++;
             task10.innerHTML = task[9];
-            taskLocalStorage[9] = localStorage.setItem("n10", task[9]);    
+            taskLocalStorage[9] = localStorage.setItem("n10", task[9]);
+            tg.innerHTML = `Tarea guardada en <span class ="tgId">ID_${po[9]}</span>`;
       }
     }else{
       b = 0;

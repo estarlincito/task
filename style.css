@@ -12,6 +12,7 @@ body{
     height: 1000px;
     margin: auto;
     margin-top: 30px;
+    color: white;
 }
 
 .nota {
@@ -19,9 +20,9 @@ body{
     min-width: 300px;
     padding: 20px;
     margin: auto;
-    background-color: yellow;
+    background-color: rgb(34, 34, 34);
     border-radius: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 #title {
@@ -63,12 +64,14 @@ body{
     margin-top: 5px;
     min-width: 100%;
     max-width: 100%;
-    min-height: 25px;
-    max-height: 20px;
-    padding-top:10px;
+    min-height: 30px;
+    max-height: 30px;
+    padding-top:1px;
+    padding-left:5px;
     text-align: left;
     font-size: 16px;
-    border-color: white;
+    border: 1px solid white;
+    outline: red;
     border-radius: 10px;
 }
 
@@ -79,7 +82,7 @@ body{
     min-height: 100px;
     max-height: 200px;
     padding-top:5px;
-    padding-left:3px;
+    padding-left:5px;
     text-align: left;
     font-size: 16px;
     border-radius: 10px;
@@ -102,10 +105,10 @@ body{
 }
 
 .taskStyle {
-    background-color: rgb(0, 140, 255);
+    background-color: rgb(255, 255, 255);
+    color: black;
     padding: 5px;
     border-radius: 5px;
-    color: black;
     margin-bottom: 20px !important;
     width: 80%;
     margin: auto;
@@ -117,7 +120,7 @@ body{
 }
 
 .taskStyle2 {
-    background-color: rgb(68, 158, 68);
+    background-color: rgb(162, 209, 162);
     padding: 5px;
     border-radius: 5px;
     color: black;
@@ -133,7 +136,7 @@ body{
 }
 
 .taskStyle3 {
-    background-color: rosybrown;
+    background-color: rgb(170, 144, 144);
     padding: 5px;
     border-radius: 5px;
     color: black;
@@ -149,7 +152,7 @@ body{
 }
 
 .taskStyle4 {
-    background-color: rgb(124, 89, 158);
+    background-color: rgb(177, 159, 194);
     padding: 5px;
     border-radius: 5px;
     color: black;
@@ -181,7 +184,7 @@ body{
 }
 
 .taskStyle6 {
-    background-color: indianred;
+    background-color: rgb(192, 157, 157);
     padding: 5px;
     border-radius: 5px;
     color: black;
@@ -197,7 +200,7 @@ body{
 }
 
 .taskStyle7 {
-    background-color: orchid;
+    background-color: rgb(192, 158, 191);
     padding: 5px;
     border-radius: 5px;
     color: black;
@@ -229,7 +232,7 @@ body{
 }
 
 .taskStyle9 {
-    background-color: rgb(204, 130, 204);
+    background-color: rgb(162, 166, 216);
     padding: 5px;
     border-radius: 5px;
     color: black;
@@ -245,7 +248,7 @@ body{
 }
 
 .taskStyle10 {
-    background-color: peru;
+    background-color: rgb(179, 157, 135);
     padding: 5px;
     border-radius: 5px;
     color: black;
@@ -255,7 +258,6 @@ body{
 }
 
 .taskStyle10 .contenido{
-
     color: black;
     font-size: 16px;;
 }
@@ -265,9 +267,8 @@ body{
     font-size: 13px;
     padding: 5px;
     text-align: right;
-    background-color: white;
+    background-color: red;
     border:solid 1px rgb(7, 1, 1);
-    color: red;
     border-radius: 5px;
     float: right;
     -webkit-user-select: none;
@@ -279,4 +280,14 @@ body{
 
 .contenido {
     font-weight: lighter;
+}
+
+.tgId{
+    color: rgb(253, 250, 63);
+}
+
+.idTj{
+    font-size: 12px;
+    float: left;
+    color: rgb(2, 2, 2);
 }

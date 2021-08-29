@@ -1,6 +1,6 @@
 // DOM
-titulo = document.getElementsByName("Titulo");
-contenido = document.getElementsByName("Contenido");
+var titulo = document.getElementsByName("Titulo");
+var contenido = document.getElementsByName("Contenido");
 var task1 = document.getElementById("task1");
 var task2 = document.getElementById("task2");
 var task3 = document.getElementById("task3");
@@ -12,26 +12,24 @@ var task8 = document.getElementById("task8");
 var task9 = document.getElementById("task9");
 var task10 = document.getElementById("task10");
 var tg = document.getElementById("tg");
-po = [0,1,2,3,4,5,6,7,8,9];
-b = 0;
+var po = [0,1,2,3,4,5,6,7,8,9];
+var b = 0;
 
 //setLocalStorage
 var taskLocalStorage = ["n1", "n2", "n3", "n4", "n5", "n6", "n7", "n8", "n9", "n10"];
 
 // getLocalStorage
 var getLocalStorage = ["n1", "n2", "n3", "n4", "n5", "n6", "n7", "n8", "n9", "n10"];
-  getLocalStorage[0] = localStorage.getItem("n1");
-  getLocalStorage[1] = localStorage.getItem("n2");
-  getLocalStorage[2] = localStorage.getItem("n3");
-  getLocalStorage[3] = localStorage.getItem("n4");
-  getLocalStorage[4] = localStorage.getItem("n5");
-  getLocalStorage[5] = localStorage.getItem("n6");
-  getLocalStorage[6] = localStorage.getItem("n7");
-  getLocalStorage[7] = localStorage.getItem("n8");
-  getLocalStorage[8] = localStorage.getItem("n9");
-  getLocalStorage[9] = localStorage.getItem("n10");
-
-
+    getLocalStorage[0] = localStorage.getItem("n1");
+    getLocalStorage[1] = localStorage.getItem("n2");
+    getLocalStorage[2] = localStorage.getItem("n3");
+    getLocalStorage[3] = localStorage.getItem("n4");
+    getLocalStorage[4] = localStorage.getItem("n5");
+    getLocalStorage[5] = localStorage.getItem("n6");
+    getLocalStorage[6] = localStorage.getItem("n7");
+    getLocalStorage[7] = localStorage.getItem("n8");
+    getLocalStorage[8] = localStorage.getItem("n9");
+    getLocalStorage[9] = localStorage.getItem("n10");
 
 
 // agregar
@@ -199,7 +197,6 @@ function agregar(){
             `${titulo[0].value = ""}${contenido[0].value = ""}`
       }
     }else{
-      b = 0;
       alert(`Deja de tacaño y compra la version PRO 😏`)
     }
 }
@@ -284,42 +281,52 @@ function quitar(n1){
 
  }
 
- //TareasSaves
- function TareasSaves(){
+ //tareasSaves
+ function tareasSaves(){
   if (getLocalStorage[0]){
     task1.innerHTML = getLocalStorage[0];
     po[0] = 1;
+    b = 1;
   }if (getLocalStorage[1]) {
     task2.innerHTML = getLocalStorage[1];
     po[1] = 2;
+    b = 2;
   }if (getLocalStorage[2]) {
     task3.innerHTML = getLocalStorage[2];
     po[2] = 3;
+    b = 3;
   }if (getLocalStorage[3]) {
     task4.innerHTML = getLocalStorage[3];
     po[3] = 4;
+    b = 4;
   }if (getLocalStorage[4]) {
     task5.innerHTML = getLocalStorage[4];
     po[4] = 5;
+    b = 5;
   }if (getLocalStorage[5]) {
     task6.innerHTML = getLocalStorage[5];
     po[5] = 6;
+    b = 6;
   }if (getLocalStorage[6]) {
     task7.innerHTML = getLocalStorage[6];
     po[6] = 7;
+    b = 7;
   }if (getLocalStorage[7]) {
     task8.innerHTML = getLocalStorage[7];
     po[7] = 8;
+    b = 8;
   }if (getLocalStorage[8]) {
     task9.innerHTML = getLocalStorage[8];
     po[8] = 9;
+    b = 9;
   }if (getLocalStorage[9]) {
     task10.innerHTML = getLocalStorage[9];
     po[9] = 10;
+    b = 10;
   }
  }
 
- TareasSaves();
+ tareasSaves();
 
 
 //  function onKeyUp(event) {

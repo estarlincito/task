@@ -55,7 +55,7 @@ function clickError(){
 
   setTimeout(() => {
     alert(`Deja de tacaño y compra la version PRO 😏`)
-  }, 200);
+  }, 400);
 
 }
 

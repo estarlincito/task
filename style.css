@@ -16,7 +16,7 @@ body{
 
 .nota {
     margin-top: 40px !important;
-    width: 80%;
+    max-width: 50%;
     min-width: 300px;
     min-height: 500px;
     padding: 20px;
@@ -63,8 +63,8 @@ body{
 }
 .review1 {
     margin-top: 5px;
-    min-width: 100%;
-    max-width: 100%;
+    min-width: 90%;
+    max-width: 90%;
     min-height: 30px;
     max-height: 30px;
     padding-top:1px;
@@ -78,8 +78,8 @@ body{
 
 .review2 {
     margin-top: 5px;
-    min-width: 100%;
-    max-width: 100%;
+    min-width: 90%;
+    max-width: 90%;
     min-height: 100px;
     max-height: 200px;
     padding-top:5px;
@@ -113,6 +113,7 @@ body{
     padding: 5px;
     border-radius: 5px;
     margin-bottom: 20px !important;
+    min-height: 10px;
     width: 80%;
     margin: auto;
 }
@@ -128,6 +129,7 @@ body{
     border-radius: 5px;
     color: black;
     margin-top: 20px !important;
+    min-height: 10px;
     width: 80%;
     margin: auto;
 }
@@ -144,6 +146,7 @@ body{
     border-radius: 5px;
     color: black;
     margin-top: 20px !important;
+    min-height: 10px;
     width: 80%;
     margin: auto;
 }
@@ -160,6 +163,7 @@ body{
     border-radius: 5px;
     color: black;
     margin-top: 20px !important;
+    min-height: 10px;
     width: 80%;
     margin: auto;
 }
@@ -176,6 +180,7 @@ body{
     border-radius: 5px;
     color: black;
     margin-top: 20px !important;
+    min-height: 10px;
     width: 80%;
     margin: auto;
 }
@@ -192,6 +197,7 @@ body{
     border-radius: 5px;
     color: black;
     margin-top: 20px !important;
+    min-height: 10px;
     width: 80%;
     margin: auto;
 }
@@ -208,6 +214,7 @@ body{
     border-radius: 5px;
     color: black;
     margin-top: 20px !important;
+    min-height: 10px;
     width: 80%;
     margin: auto;
 }
@@ -224,6 +231,7 @@ body{
     border-radius: 5px;
     color: black;
     margin-top: 20px !important;
+    min-height: 10px;
     width: 80%;
     margin: auto;
 }
@@ -240,6 +248,7 @@ body{
     border-radius: 5px;
     color: black;
     margin-top: 20px !important;
+    min-height: 10px;
     width: 80%;
     margin: auto;
 }
@@ -256,6 +265,7 @@ body{
     border-radius: 5px;
     color: black;
     margin-top: 20px !important;
+    min-height: 10px;
     width: 80%;
     margin: auto;
 }
@@ -290,6 +300,7 @@ body{
 }
 
 .idTj{
+    padding-bottom: 5px;
     font-size: 12px;
     float: left;
     color: rgb(2, 2, 2);

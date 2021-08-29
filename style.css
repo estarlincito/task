@@ -33,6 +33,7 @@ body{
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    cursor:no-drop;
 }
 
 .tuN{
@@ -40,6 +41,7 @@ body{
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    cursor:no-drop;
 }
 
 #tg{
@@ -48,6 +50,7 @@ body{
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    cursor:no-drop;
 }
 
 #tg::after{
@@ -94,6 +97,7 @@ body{
 }
 
 .buttonAgregar {
+    cursor: pointer;
     padding: 5px;
     font-size: 15px;
     margin-bottom: 20px;

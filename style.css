@@ -100,8 +100,8 @@ body{
     display: flexbox;
     width: 100px;
     border-radius: 10px;
-    background-color: green;
-    border-color: green;
+    background-color: rgb(5, 168, 5);
+    border-color: rgb(5, 168, 5);
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -114,6 +114,8 @@ body{
     padding: 5px;
     border-radius: 5px;
     margin-bottom: 20px !important;
+    min-width: 90%;
+    max-width: 90%;
     min-height: 10px;
     margin: auto;
 }
@@ -129,6 +131,8 @@ body{
     border-radius: 5px;
     color: black;
     margin-top: 25px !important;
+    min-width: 90%;
+    max-width: 90%;
     min-height: 10px;
     margin: auto;
 }
@@ -145,6 +149,8 @@ body{
     border-radius: 5px;
     color: black;
     margin-top: 25px !important;
+    min-width: 90%;
+    max-width: 90%;
     min-height: 10px;
     margin: auto;
 }
@@ -161,6 +167,8 @@ body{
     border-radius: 5px;
     color: black;
     margin-top: 25px !important;
+    min-width: 90%;
+    max-width: 90%;
     min-height: 10px;
     margin: auto;
 }
@@ -177,6 +185,8 @@ body{
     border-radius: 5px;
     color: black;
     margin-top: 25px !important;
+    min-width: 90%;
+    max-width: 90%;
     min-height: 10px;
     margin: auto;
 }
@@ -193,6 +203,8 @@ body{
     border-radius: 5px;
     color: black;
     margin-top: 25px !important;
+    min-width: 90%;
+    max-width: 90%;
     min-height: 10px;
     margin: auto;
 }
@@ -209,6 +221,8 @@ body{
     border-radius: 5px;
     color: black;
     margin-top: 25px !important;
+    min-width: 90%;
+    max-width: 90%;
     min-height: 10px;
     margin: auto;
 }
@@ -225,6 +239,8 @@ body{
     border-radius: 5px;
     color: black;
     margin-top: 25px !important;
+    min-width: 90%;
+    max-width: 90%;
     min-height: 10px;
     margin: auto;
 }
@@ -241,6 +257,8 @@ body{
     border-radius: 5px;
     color: black;
     margin-top: 25px !important;
+    min-width: 90%;
+    max-width: 90%;
     min-height: 10px;
     margin: auto;
 }
@@ -257,6 +275,8 @@ body{
     border-radius: 5px;
     color: black;
     margin-top: 25px !important;
+    min-width: 90%;
+    max-width: 90%;
     min-height: 10px;
     margin: auto;
 }
@@ -271,7 +291,7 @@ body{
     font-size: 13px;
     padding: 5px;
     text-align: right;
-    background-color: red;
+    background-color: rgb(245, 66, 66);
     border:solid 1px rgb(7, 1, 1);
     border-radius: 5px;
     float: right;

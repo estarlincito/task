@@ -16,7 +16,7 @@ body{
 
 .nota {
     margin-top: 40px !important;
-    width: 80%;
+    width: 50%;
     min-width: 300px;
     min-height: 500px;
     padding: 20px;
@@ -24,6 +24,7 @@ body{
     background-color: rgb(34, 34, 34);
     border-radius: 10px;
     padding-bottom: 30px;
+    word-wrap: break-word;
 }
 
 #title {

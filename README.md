@@ -1,5 +1,4 @@
 # Task | Estarlincito
-Una app simple diseñada con HTML,CSS & JS.
+Una simple **app**, diseñada con **HTML,CSS & JS.**
 
-
-https://estarlincito.github.io/task
+**Link:** https://estarlincito.github.io/task

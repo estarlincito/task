@@ -1,5 +1,5 @@
 # Task | Estarlincito
-  Una **app** de tareas diseñada con **HTML,CSS & JS.**
+  Una **app** para guardar tareas en el localStorage diseñada con **HTML,CSS & JS.**
 
   **Link:** https://estarlincito.github.io/task
 
